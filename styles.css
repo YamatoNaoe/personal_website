@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav div img{
+    width:80px;
+    border-radius:50%;
+}
+
+nav ul li{
+    list-style:none;
+    background-color:black;
+    display:inline-block;
+}
+
+nav ul li a{
+    color:#fff;
+}
+
+nav .nav_bar_icons li a img{
+    border-radius:50%;
+}
