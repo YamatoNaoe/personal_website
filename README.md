@@ -9,3 +9,4 @@ This will serve to monitor my progress throughout the developement process as we
 Session #1: Worked on navbar and added all html elements to the website
 Session #2: Styled the navbar and adjusted images to better fit the display.  Learned how to use the object-fit property to adjust images with border-radius.  Really happy about the results!
 Session #3: Finished styling the navbar and added the "about me" section to the page.  Completed styling that and will move onto the next sections in future sessions.  
+Session #4: Added Dropdown menus to the respective navbar positions.  Had to mess around a lot with it to get the bar to center itself properly. Adjusted all other elements to be in line with navbar changes.  
