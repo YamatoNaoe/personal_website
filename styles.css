@@ -1,5 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
 }
 
 /*----HEADER (NAVBAR) SECTION CSS---*/
@@ -30,6 +32,7 @@ nav div img{
 nav ul li{
     list-style:none;
     display:inline-block;
+    position:relative;
 }
 
 .nav_bar_text li{
@@ -41,19 +44,24 @@ nav .nav_bar_text li a{
     text-decoration: none;
 }
 
-
-nav .nav_bar_text li::after{
-    content:'';
-    background:pink;
-    width:0;
-    height:2px;
-    transition:0.5s;
-    display:block;
-    margin:auto;
+.nav_bar_text li ul.nav_dropdown{
+    width:100%;
+    background:black;
+    z-index:999;
+    display:none;
+    position:absolute;
+    margin-left:-32px;
+    margin-top: 30px;
+    font-size:15px;
+    text-align: center;
 }
 
-nav .nav_bar_text li:hover::after{
-    width:100%;
+.nav_bar_text li a:hover{
+    background:black;
+}
+
+.nav_bar_text li:hover ul.nav_dropdown{
+    display:block;
 }
 
 nav .nav_bar_icons li a img{
@@ -62,6 +70,7 @@ nav .nav_bar_icons li a img{
     border-radius:50%;
     object-fit:cover;
 }
+
 
 /*----ABOUT ME SECTION CSS---*/
 
@@ -74,8 +83,7 @@ nav .nav_bar_icons li a img{
 .about_me_content{
     display:flex;
     justify-content: center;
-    margin-right:300px;
-   
+    margin-right:300px; 
 }
 
 .about_me_text p:first-of-type{
@@ -93,7 +101,7 @@ nav .nav_bar_icons li a img{
     border-radius:20px;
     border: 3px solid gray;
     margin-left:50px;
-    margin-top:40px;
+    margin-top:18px;
 }
 
 .about_me ul li{
