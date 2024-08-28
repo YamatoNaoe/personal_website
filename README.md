@@ -11,3 +11,4 @@ Session #2: Styled the navbar and adjusted images to better fit the display.  Le
 Session #3: Finished styling the navbar and added the "about me" section to the page.  Completed styling that and will move onto the next sections in future sessions.  
 Session #4: Added Dropdown menus to the respective navbar positions.  Had to mess around a lot with it to get the bar to center itself properly. Adjusted all other elements to be in line with navbar changes.  
 Session #5: Completed all the sections on the landing page and styled them accordingly.  Was working on adding <hr> lines to separate each section, but I couldn't get them to show up properly.  Will work on this section the next session.  
+Session #6: Completed landing page and figured out how to add the <hr> lines in to separate the sections.  Started on the completion_log page and ended up getting a lot of it done.  Just need to style the page and it should be done by the end of next session.
