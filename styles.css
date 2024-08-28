@@ -98,8 +98,8 @@ nav .nav_bar_icons li a img{
 .about_me_content img{
     width:300px;
     height:300px;
-    border-radius:20px;
-    border: 3px solid gray;
+    border:12px ridge #D3D3D3;
+    border-radius:5px;
     margin-left:50px;
     margin-top:18px;
 }
@@ -111,24 +111,29 @@ nav .nav_bar_icons li a img{
 }
 
 .about_me ul li img{
-    border-radius:20px;
+    border-radius:5px;
     width:200px;
     height:200px;
     margin-left:30px;
     margin-top:70px;
-    border: 3px solid gray;
+    border: 12px ridge #D3D3D3;
 }
 
 
 /*----LINEBREAK (DIVIDER) CSS---*/
 
-
+hr {
+    margin:50px 200px 0px -200px;
+    box-shadow:0px 0px 10px 1px black;
+    border:0;
+    height:0;
+}
 
 /*----MINDSET SECTION CSS---*/
 
 .mindset{
     position:absolute;
-    top:900px;
+    top:950px;
     left:450px;
 }
 
@@ -156,7 +161,7 @@ nav .nav_bar_icons li a img{
     width:300px;
     height:300px;
     border-radius:20px;
-    border: 3px solid gray;
+    border: 12px ridge #D3D3D3;
     margin-right:50px;
     margin-top:18px;
 }
@@ -165,7 +170,7 @@ nav .nav_bar_icons li a img{
 
 .the_future{
     position:absolute;
-    top:1375px;
+    top:1425px;
     left:450px;
 }
 
@@ -190,7 +195,61 @@ nav .nav_bar_icons li a img{
     width:300px;
     height:300px;
     border-radius:20px;
-    border: 3px solid gray;
+    border: 12px ridge #D3D3D3;
     margin-top:18px;
     margin-left:50px;
+}
+
+/*----COMPLETION LOG CSS---*/
+
+.completion_log_content{
+    margin:100px;
+}
+
+.completion_log_content h1{
+    text-align:center;
+}
+
+.completion_log_content p{
+    text-align:center;
+    font-style:italic;
+}
+
+.completion_log_content ul li h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.CL_first_ul{
+    margin-top: 100px;
+}
+
+.CL_first_ul li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+}
+
+.CL_first_ul li img{
+    height:625px;
+    width:420px;
+    border-radius:0%;
+    object-fit:cover;
+}
+
+.CL_second_ul{
+    margin-top: 100px;
+}
+
+.CL_second_ul li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+}
+
+.CL_second_ul li img{
+    height:625px;
+    width:420px;
+    border-radius:0%;
+    object-fit:fill;
 }
