@@ -389,3 +389,54 @@ hr {
     }
 }
 
+/*----- Respective Completion Log CSS -----*/
+
+
+.completion_log_sections{
+    margin-left:300px;
+    margin-right:300px
+}
+
+.completion_log_sections ul li{
+    list-style:none;
+    padding-bottom:100px;
+}
+
+.completion_log_section_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:150px;
+    left:450px;
+}
+
+.completion_log_content_container{
+    display:flex;
+}
+
+.completion_log_section_content img{
+    max-width:400px;
+    max-height:400px;
+    object-fit: cover;
+}
+
+.completion_log_section_content_text{
+    margin-left:100px;
+}
+
+.completion_log_section_content_text a:link{
+    text-decoration: none;
+}
+
+.completion_log_section_content_text h2{
+    font-style:italic;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    font-size:30px;
+}
+
+.completion_log_section_content_text p{
+    font-size:18px;
+    line-height: 2.5;
+}
