@@ -15,3 +15,5 @@ Session #6: Completed landing page and figured out how to add the <hr> lines in 
 Session #7: Completed styling the completion_log page and created the chess page as well.  Next session will be aimed at working on the respective pages for the completion logs.  
 Session #8: Completed the anime.html page which will be the blueprint for each of the completion_log pages aside from the music one.  Next session will be spent finishing out the other pages using the anime.html skeleton.
 Session #9: Finished all of the completion_log pages except for the video games and visual novel ones.  Will complete those next session.
+Session #10: Completed all completion_log pages except for the music one.  Plan on working on music.html next session
+Session #11:  
